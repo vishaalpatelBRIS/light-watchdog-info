@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Light Watchdog</title>
+<style>body{margin:0;background:#101820;color:#f1f5f9;font:18px/1.65 system-ui,sans-serif}main{max-width:760px;margin:auto;padding:64px 24px}h1{font-size:42px;line-height:1.15}h2{font-size:24px;margin-top:36px}a{color:#91caff}.eyebrow{color:#91caff;font-size:14px;letter-spacing:2px}p{color:#c9d4df}footer{margin-top:48px;border-top:1px solid #354552;padding-top:20px;font-size:16px}</style>
+<main>
+<div class="eyebrow">PERSONAL WINDOWS UTILITY</div>
+<h1>Light Watchdog</h1>
+<p>Light Watchdog checks whether scheduled smart-light actions succeeded. It retries within a limited recovery window and can email its owner when a light cannot be recovered.</p>
+<h2>How it works</h2>
+<p>The application runs locally on the owner's Windows computer. It finds enrolled lights by their hardware address, checks their reported state after scheduled actions, and stops checking once an action succeeds or recovery ends.</p>
+<h2>Optional Google connection</h2>
+<p>The owner can connect a Google account to send failure alerts through Gmail. The app requests permission to send email and confirm the account's email address. It does not request permission to read the inbox, contacts, calendar, or Drive files.</p>
+<p>This is a personal-use tool, not a public sign-up service. The computer must be awake, signed in, and connected for checks and emails to work. A light reporting that it is on does not prove that its physical LED is working.</p>
+<footer><a href="privacy.html">Privacy policy</a></footer>
+</main>
+</html>
